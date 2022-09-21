@@ -1,0 +1,40 @@
+body {
+    font-family: 'Dangrek', cursive;
+    margin: 0;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+.ui {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.ps {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.ps img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px 40px;
+    border-radius: 7px;
+    color: whitesmoke;
+    font-weight: 800px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
