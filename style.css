@@ -4,16 +4,16 @@ body {
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 56px;
 }
 
 .ui {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .ps {
@@ -22,7 +22,7 @@ section {
 }
 
 .ps img {
-    width: 80%;
+    width: 75%;
 }
 
 .link-button {
@@ -44,4 +44,34 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    box-shadow: 10px 10px 35px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    text-align: center;
+
+}
+
+.pp {
+    box-shadow: 10px 10px 08px gray;
+
+    text-align: center;
+}
+
+.ami {
+    color: crimson;
+    text-align: center;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.tmi {
+    color: darkturquoise;
 }
